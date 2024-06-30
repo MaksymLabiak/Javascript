@@ -22,9 +22,26 @@
 // do while відрізняється тим, що спочатку робить один цикл, потім провіряє умову, а while зразу провіряє умову, тільки потім робить цикл
 
 
-var i = 100;
-do {
-    console.log(i);
-    i += 60;
-} while (i < 105);
+// var i = 80;
+// do {
+//     console.log(i);
+//     i += 20;
+// } while (i < 121);
 
+// for(var i = 10; i <= 20; i++) {
+//     if (i % 2 == 0)
+//         continue; // break завершує цикл, якщо уиова в continue виконується, то цикл починається спочатку
+
+//     // if (i > 15)
+//     //     break;
+
+//     console.log(i);
+// }
+
+var arr = [5, 7, 3, 8, 9, 91];
+
+for (var i = 0; i < arr.length; i++) {
+    arr[i] *= 2;
+
+    console.log("Element " + (i + 1) + ": " + arr[i]);
+}
