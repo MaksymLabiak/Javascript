@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="main-form" onsubmit="return checkForm(this)" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Name" id="name"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="pass" placeholder="Password" id="pass"><br><br>
+        <label for="name">Password check:</label>
+        <input type="password" name="repass" placeholder="Password check" id="repass"><br><br>
+        <span>Gender:</span>
+        <input type="radio" name="state" id="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="state" id="female" value="Female">
+        <label for="female">Male</label>
+        <div id="error" style="color: red;"></div>
+        <input type="submit" name="submit" value="ready">
+    </form>
+
+    <script src="./javascript/main.js"></script>
+</body>
+
+</html>
