@@ -23,9 +23,11 @@ const isUserLoggedIn = false;
 const age = 18;
 let name = "Maksym";
 
-if (age === 18 && name === "Maksym" && !isUserLoggedIn) {
-    alert("You are allowed to visit our site");
-}
+// if (age === 18 && name === "Maksym" && !isUserLoggedIn) {
+//     alert("You are allowed to visit our site");
+// }
+
+// age === 18 && name === "Maksym" && !isUserLoggedIn ? alert("You are allowed to visit our site") : alert("You are not allowed to visit our site")
 
 // Logical operators (&& - AND, || - OR, ! - NOT)
 

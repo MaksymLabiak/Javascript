@@ -32,10 +32,12 @@ const followers = [
     { name: "user10", age: 20 },
 ]
 
-function congratsIfMoreThan100(count) {
-    if (count.length >= 10) {
-        alert('You have more than 100 subscribers');
-    }
-}
+// function congratsIfMoreThan100(count) {
+//     if (count.length >= 10) {
+//         alert('You have more than 100 subscribers');
+//     }
+// }
+
+const congratsIfMoreThan100 = count => count.length >= 10 ? alert('You have more than 10 subscribers') : NaN
 
 congratsIfMoreThan100(followers);

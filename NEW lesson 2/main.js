@@ -8,6 +8,8 @@ const isUserLoggedIn = false;
 //     alert('You are not logged in');
 // }
 
+// isUserLoggedIn ? alert('You are logged in') : alert('You are not logged in')
+
 // Ternary operator
 
 // isUserLoggedIn ? alert('You are logged in') : alert('You are not logged in'); // те саме що і зверху, просто скорочена версія. Тернарний оператор

@@ -20,23 +20,22 @@
 // sayHello(userName, ages, genders);
 // // sayHello("Oleg", age, gender);
 
-// const userName2 = "Maksym2"
+const userName2 = "Maksym2";
 
-// function createUserName(name) {
-//     const result = name.toUpperCase();
-//     return result;
-// }
+function createUserName(name) {
+    const result = name.toUpperCase();
+    console.log(result);
+    return result;
+}
 
-// // const userName = createUserName();
-// console.log(createUserName(userName2));
+// const userName = createUserName(userName2);
+createUserName(userName2);
 
 
 const UserName = "Maksym";
 
 function upperName(name) {
-    const result = name.toUpperCase();
-    return result;
-    // return name.toUpperCase(); - це скорочений варіант коду
+    return name.toUpperCase(); // - це скорочений варіант коду
 }
 
 console.log(upperName(UserName));

@@ -48,11 +48,23 @@ const subscribers = [
 
 let someList = [1, 2, 3, 4, 5, 6];
 
-function squareArr(arr) {
+function squareArrs(arr) {
     for (let i = 0; i < arr.length; i++) {
         arr[i] *= arr[i];
     }
     console.log(arr)
 }
 
-squareArr(someList);
+squareArrs(someList);
+
+
+let list = [1, 2, 3, 4, 5, 6];
+
+function squareArr(arr) {
+    arr.forEach((value, index, array) => {
+        array[index] = value * value;
+    });
+    console.log(arr);
+}
+
+squareArr(list);
