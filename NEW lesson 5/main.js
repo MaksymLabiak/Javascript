@@ -4,7 +4,7 @@
 // alert('hello'); // вбудована функція
 // console.log("Hello"); // це метод
 // const userName = "Maksym"
-// const ages = 20;
+// const ages = 10;
 // const genders = "male";
 
 // function sayHello(name, age, gender) {
@@ -18,9 +18,9 @@
 //     }
 // }
 // sayHello(userName, ages, genders);
-// // sayHello("Oleg", age, gender);
+// sayHello("Oleg", ages, genders);
 
-const userName2 = "Maksym2";
+const userName2 = "Maksym22";
 
 function createUserName(name) {
     const result = name.toUpperCase();
